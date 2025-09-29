@@ -1,0 +1,188 @@
+/* === MENU NAVBAR === */
+.navbar-dark {
+    background-color: #2dca3a !important; /* Cor laranja para o menu superior */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8d6b5 !important; /* Tom claro de laranja ao passar o mouse */
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+header {
+    background: linear-gradient(135deg, #175A4B, #175A4B);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 15, 15, 0.1);
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+.list-group-item {
+    border: none;
+    background: transparent;
+    font-weight: 500;
+}
+
+.alert {
+    border-radius: 15px;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/* === GALERIA DE BRINQUEDOS - TÍTULOS === */
+#galeria .card-title {
+    color: #e25c29 !important; /* Títulos dos brinquedos em laranja */
+    font-weight: 700;
+}
+
+/* === ESTILO GERAL DOS CARDS DA GALERIA === */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer a:hover {
+    color: #E25C29 !important;
+    text-decoration: none;
+}
+
+/* Responsividade extra */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+}
+
+/* === SEÇÃO DE CONTATO/CHAMADA FINAL === */
+#contato {
+    background-color: #175a4b !important; /* Verde escuro sustentável */
+    color: white !important;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#contato .btn-outline-light{
+    color: white !important;
+    border-color:  #e25c29!important;
+}
+#contato .btn-outline-light:hover{
+     background-color: #e25c29 !important;
+    color: white !important;
+    border-color:  #e25c29!important;
+}
+/*baixar*/
+#contato .btn-light {
+    color: #e25c29 !important;
+    border-color: white !important;
+}
+
+#contato .btn-light:hover {
+    background-color: #fff !important;
+    color: #175a4b !important; /* Botão branco com texto verde ao hover */
+    border-color: #fff !important;
+}
+
+
+/* === RODAPÉ === */
+footer {
+    background-color: #e25c29 !important; /* Mesma cor laranja do menu */
+    color: white !important;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: white !important;
+}
+
+footer a:hover {
+    color: #f8d6b5 !important;
+    text-decoration: none;
+}
+
+/* === GALERIA DE BRINQUEDOS - TÍTULOS === */
+#galeria .card-title {
+    color: #e25c29 !important; /* Títulos dos brinquedos em laranja */
+    font-weight: 700;
+}
+
+/* === ESTILO GERAL DOS CARDS DA GALERIA === */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* === BOTÕES E TEXTOS === */
+.btn {
+    border-radius: 50px;
+}
+
+/* Responsividade extra */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+}
+.section-title {
+    color: #1d7044;             /* Verde floresta – tom sustentável */
+    font-weight: 700;
+    font-size: 2.5rem;          /* Um pouco maior que o padrão */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* Efeito de linha decorativa abaixo do título */
+.section-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #e25c29; /*cor detalhe*/
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+h5 {
+    color:#e25c29 !important;
+    font-weight: 700;
+}
